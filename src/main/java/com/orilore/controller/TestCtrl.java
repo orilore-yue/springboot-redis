@@ -20,7 +20,6 @@ public class TestCtrl {
 	
 	@RequestMapping("/read")
 	public String read(String k) {
-		String v = tool.get(k);
-		return v;
+		return tool.get(k);
 	}
 }
